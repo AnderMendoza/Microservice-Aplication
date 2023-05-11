@@ -1,8 +1,8 @@
-package com.microservices.product.repository;
+package com.microservice.product.repository;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 
-import com.microservices.product.entity.ProductEntity;
+import com.microservice.product.entity.ProductEntity;
 
 public interface ProductRepository extends MongoRepository<ProductEntity, String> {
     

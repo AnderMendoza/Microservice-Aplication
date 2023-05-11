@@ -1,4 +1,4 @@
-package com.microservices.product.controller;
+package com.microservice.product.controller;
 
 import java.util.List;
 
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.microservices.product.entity.ProductEntity;
-import com.microservices.product.repository.ProductRepository;
+import com.microservice.product.entity.ProductEntity;
+import com.microservice.product.repository.ProductRepository;
 
 @RestController
 @RequestMapping("/api/products")

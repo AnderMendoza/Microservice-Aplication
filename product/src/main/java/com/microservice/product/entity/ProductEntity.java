@@ -1,4 +1,4 @@
-package com.microservices.product.entity;
+package com.microservice.product.entity;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
